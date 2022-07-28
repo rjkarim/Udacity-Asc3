@@ -1,0 +1,8 @@
+.td-none{
+    text-decoration: none;
+}
+
+.image-section{
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
