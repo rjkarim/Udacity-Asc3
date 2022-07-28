@@ -218,10 +218,39 @@
                     <p class="text-white py-3 fs-5">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 </div>
                 <div>
-                    <a style="text-decoration: none; color: #289BDE;" class="fw-bold bg-white fs-5 td-none py-3 px-5 rounded-3" href="">Register Now</a>
+                    <a style="text-decoration: none; color: #289BDE;" class="fw-bold bg-white fs-5 td-none py-3 px-5 rounded-3" data-bs-toggle="modal" data-bs-target="#exampleModal" href="">Register Now</a>
                 </div>
             </div>
         </section>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Sign Up here</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign Up</button>
+                      </form>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sign Up Later</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Modal -->
     <!-- Register Now section End -->
 
     <!-- Successfull Students section Start -->
@@ -321,7 +350,7 @@
     <!-- FAQ Section End -->
 
     <!-- Trusted by Section Start -->
-        <section class="container my-5">
+        <section class="container my-5 d-none d-lg-block d-xl-none">
             <h2 class="display-5 py-5 text-center">Trusted by over 800+ companies</h2>
             <div class="d-flex justify-content-around">
                 <img class="img-fluid" src="./images/company/company-1.png" alt="">
